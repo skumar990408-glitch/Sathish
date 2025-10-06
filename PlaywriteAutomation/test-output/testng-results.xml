@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="0" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-06T01:50:21 IST" name="Playwright Automation Suite" finished-at="2025-10-06T01:51:07 IST" duration-ms="46162">
+    <groups>
+    </groups>
+    <test started-at="2025-10-06T01:50:21 IST" name="ExpandTesting Tests" finished-at="2025-10-06T01:51:07 IST" duration-ms="46162">
+      <class name="com.tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.LoginTest@5dda768f]" started-at="2025-10-06T01:50:21 IST" name="setup" finished-at="2025-10-06T01:51:02 IST" duration-ms="41166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.tests.LoginTest@5dda768f]" started-at="2025-10-06T01:51:02 IST" name="init" finished-at="2025-10-06T01:51:05 IST" duration-ms="3304" status="FAIL">
+          <exception class="java.lang.NoSuchFieldError">
+            <message>
+              <![CDATA[Class freemarker.template.Configuration does not have member field 'freemarker.template.Version VERSION_2_3_30']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchFieldError: Class freemarker.template.Configuration does not have member field 'freemarker.template.Version VERSION_2_3_30'
+at com.aventstack.extentreports.reporter.AbstractFileReporter.loadTemplateModel(AbstractFileReporter.java:54)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.start(ExtentSparkReporter.java:136)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onSubscribe(ExtentSparkReporter.java:116)
+at io.reactivex.rxjava3.subjects.PublishSubject.subscribeActual(PublishSubject.java:133)
+at io.reactivex.rxjava3.core.Observable.subscribe(Observable.java:13262)
+at com.aventstack.extentreports.ReactiveSubject.attachReporter(ReactiveSubject.java:38)
+at com.aventstack.extentreports.ExtentReports.attachReporter(ExtentReports.java:66)
+at com.ReportUtils.ReportManager.createInstance(ReportManager.java:17)
+at com.tests.LoginTest.init(LoginTest.java:21)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchFieldError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testValidLogin()[pri:1, instance:com.tests.LoginTest@5dda768f]" started-at="2025-10-06T01:51:07 IST" name="testValidLogin" finished-at="2025-10-06T01:51:07 IST" duration-ms="1" status="SKIP">
+          <exception class="java.lang.NoSuchFieldError">
+            <message>
+              <![CDATA[Class freemarker.template.Configuration does not have member field 'freemarker.template.Version VERSION_2_3_30']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchFieldError: Class freemarker.template.Configuration does not have member field 'freemarker.template.Version VERSION_2_3_30'
+at com.aventstack.extentreports.reporter.AbstractFileReporter.loadTemplateModel(AbstractFileReporter.java:54)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.start(ExtentSparkReporter.java:136)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onSubscribe(ExtentSparkReporter.java:116)
+at io.reactivex.rxjava3.subjects.PublishSubject.subscribeActual(PublishSubject.java:133)
+at io.reactivex.rxjava3.core.Observable.subscribe(Observable.java:13262)
+at com.aventstack.extentreports.ReactiveSubject.attachReporter(ReactiveSubject.java:38)
+at com.aventstack.extentreports.ExtentReports.attachReporter(ExtentReports.java:66)
+at com.ReportUtils.ReportManager.createInstance(ReportManager.java:17)
+at com.tests.LoginTest.init(LoginTest.java:21)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchFieldError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method signature="testInvalidLogin()[pri:2, instance:com.tests.LoginTest@5dda768f]" started-at="2025-10-06T01:51:07 IST" name="testInvalidLogin" finished-at="2025-10-06T01:51:07 IST" duration-ms="1" status="SKIP">
+          <exception class="java.lang.NoSuchFieldError">
+            <message>
+              <![CDATA[Class freemarker.template.Configuration does not have member field 'freemarker.template.Version VERSION_2_3_30']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchFieldError: Class freemarker.template.Configuration does not have member field 'freemarker.template.Version VERSION_2_3_30'
+at com.aventstack.extentreports.reporter.AbstractFileReporter.loadTemplateModel(AbstractFileReporter.java:54)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.start(ExtentSparkReporter.java:136)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onSubscribe(ExtentSparkReporter.java:116)
+at io.reactivex.rxjava3.subjects.PublishSubject.subscribeActual(PublishSubject.java:133)
+at io.reactivex.rxjava3.core.Observable.subscribe(Observable.java:13262)
+at com.aventstack.extentreports.ReactiveSubject.attachReporter(ReactiveSubject.java:38)
+at com.aventstack.extentreports.ExtentReports.attachReporter(ExtentReports.java:66)
+at com.ReportUtils.ReportManager.createInstance(ReportManager.java:17)
+at com.tests.LoginTest.init(LoginTest.java:21)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchFieldError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.tests.LoginTest@5dda768f]" started-at="2025-10-06T01:51:07 IST" name="cleanUp" finished-at="2025-10-06T01:51:07 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginTest@5dda768f]" started-at="2025-10-06T01:51:07 IST" name="tearDown" finished-at="2025-10-06T01:51:07 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.LoginTest -->
+    </test> <!-- ExpandTesting Tests -->
+  </suite> <!-- Playwright Automation Suite -->
+</testng-results>
